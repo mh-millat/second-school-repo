@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-fonts {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  /* nav section */
+
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 1140px;
+    margin: auto;
+  }
+  .font-img{
+    height: 50px;
+    width: 50px;
+  }
+
+  .img-font{
+    display: flex;
+    gap: 8px;
+  }
+
+  .menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+
+  ul li > a{
+    text-decoration: none;
+  }
+
+
+
+  /* main fast section-1 */
+
+h1{
+    font-size: 54px;
+}
+
+
+  .h1-container{
+    margin: auto;
+    width: 1140px;
+  }
+  .heading-container{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+.heading-text{
+    width: 600px;
+    height: 331px;
+}
+
+
+
+/* section 2 */
+
+.card-1{
+    height: 80px;
+    width: 80px;
+}
+
+.card-11{
+    height: 300px;
+    width: 200px;
+    border: 1px solid tomato;
+    padding: 30px;
+    background: linear-gradient(to top, rgb(186, 152, 1), rgb(218, 218, 218));
+    text-align: center;
+    border-radius: 10px;
+}
+.card-22{
+    height: 300px;
+    width: 200px;
+    border: 1px solid tomato;
+    padding: 30px;
+    background: linear-gradient(to top, rgb(212, 107, 1), rgb(149, 149, 149));
+    text-align: center;
+    border-radius: 10px;
+}
+.card-33{
+    height: 300px;
+    width: 200px;
+    border: 1px solid tomato;
+    padding: 30px;
+    background: linear-gradient(to top, rgb(10, 102, 193), rgb(149, 233, 188));
+    text-align: center;
+    border-radius: 10px;
+}
+
+.group-card{
+    display: flex;
+    gap: 30px;
+    width: 1140px;
+    justify-content: space-between;
+    margin: auto;
+}
+.web-heading{
+    width: 1140px;
+    text-align: center;
+    margin: auto;
+}
+
+/* side bar section */
+.side-container{
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    max-width: 1140px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.side-bar{
+    background-color: tomato;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+.bar{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+/* another image section */
+.header-story{
+    max-width: 1140px;
+    margin: auto;
+}
+.story-heading{
+    text-align: center;
+}
+
+.our-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    gap: 40px;
+}
+
+
+
+
+.single-image{
+    height: 350px;
+    width: 530px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.another-image-1{
+    height: 177px;
+    width: 297px;
+    border-radius: 10px 10px 0 0;
+}
+.another-image-2{
+    height: 177px;
+    width: 297px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+.single-image-description{
+    height: 206px;
+    width: 466px;
+    background-color: bisque;
+    padding: 32px;
+    border-radius: 0 0 10px 10px;
+    margin-top: -10px;
+    
+}
+
+.another-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.another-image-1-des-1{
+    height: 90px;
+    width: 257px;
+    padding: 20px;
+    background-color: rgba(196, 58, 34, 0.509);
+    margin-top: -8px;
+    border-radius: 0 0 10px 10px;
+
+}
+.another-image-1-des-2{
+    height: 90px;
+    width: 257px;
+    padding: 20px;
+    background-color: rgb(255, 71, 221);
+    margin-top: -8px;
+    border-radius: 0 0 10px 10px;
+}
+.another-image-1-des-3{
+    height: 90px;
+    width: 257px;
+    padding: 20px;
+    background-color: rgb(166, 141, 12);
+    margin-top: -8px;
+    border-radius: 0 0 10px 10px;
+}
+.another-image-1-des-4{
+    height: 90px;
+    width: 257px;
+    padding: 20px;
+    background-color: rgb(203, 62, 37);
+    margin-top: -8px;
+    border-radius: 0 0 10px 10px;
+}
+
+
+/* view section */
+
+.view-sec{
+    max-width: 1140px;
+    margin: auto;
+    margin: 100px;
+    text-align: center;
+}
